@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banglanova Digital | Web & Mobile Solutions</title>
+    <link rel="icon" href="bndfav.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="bndt.png" alt="Banglanova Digital Logo">
+                <div class="logo-text">
+                    <span class="bangla" style="color: #1e3a8a;">BanglaNova</span>
+                    <span class="digital" style="color: #0097b2;">Digital</span>
+                </div>
+            </div>
+            
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Strong Digital Presence — Delivered</h1>
+                <p>We design, build, and automate web & app solutions for businesses, NGOs, and startups.</p>
+                <div class="cta-buttons">
+                    <a href="#services" class="btn primary">View Our Services</a>
+                    <a href="#contact" class="btn secondary">Request a Quote</a>
+                </div>
+            </div>
+            <div class="hero-icons">
+                <div class="icon-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Web</span>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile</span>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-robot"></i>
+                    <span>Automation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <div class="about-content">
+                <p>Banglanova Digital is a freelance-powered digital consultancy delivering smart web, mobile, and automation solutions. We work lean, deliver fast, and scale through our trusted network of developers.</p>
+                <blockquote>"Your project, our team—tailored to your goals."</blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">High-impact solutions tailored to your business needs</p>
+            
+            <div class="services-tabs">
+                <button class="tab-btn active" data-tab="core">Core Services</button>
+                <button class="tab-btn" data-tab="micro">Micro Services</button>
+            </div>
+            
+            <div class="services-content">
+                <!-- Core Services -->
+                <div id="core" class="tab-content active">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Custom Web Application Development</h3>
+                        <p>Design, build, and deploy web platforms tailored to your needs including full-stack apps, SaaS portals, and e-commerce solutions.</p>
+                        <button class="read-more">Read More</button>
+                        <div class="service-details">
+                            <p><strong>Includes:</strong></p>
+                            <ul>
+                                <li>Full-stack apps (Frontend + Backend)</li>
+                                <li>SaaS portals, e-commerce, internal dashboards</li>
+                                <li>REST API integration & user management</li>
+                            </ul>
+                            <p><strong>Tools:</strong> HTML, CSS, JavaScript, Python (Flask/Django), PostgreSQL, React</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile App Development (Flutter)</h3>
+                        <p>Cross-platform mobile apps for iOS and Android with seamless design & performance.</p>
+                        <button class="read-more">Read More</button>
+                        <div class="service-details">
+                            <p><strong>Includes:</strong></p>
+                            <ul>
+                                <li>MVPs for startups</li>
+                                <li>Branded client apps</li>
+                                <li>Firebase integration, custom APIs</li>
+                            </ul>
+                            <p><strong>Tools:</strong> Flutter, Dart, Firebase, REST APIs</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Automation & Digital Workflow Solutions</h3>
+                        <p>Modernize and streamline your business through smart software automation.</p>
+                        <button class="read-more">Read More</button>
+                        <div class="service-details">
+                            <p><strong>Includes:</strong></p>
+                            <ul>
+                                <li>Data scraping, workflow automation</li>
+                                <li>Excel/PDF generators, reporting tools</li>
+                                <li>Integration with CRMs, Google Sheets, APIs</li>
+                            </ul>
+                            <p><strong>Tools:</strong> Python, Flask, Selenium, Zapier, REST APIs</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Custom Software Development</h3>
+                        <p>Tailor-made software to solve unique business challenges.</p>
+                        <button class="read-more">Read More</button>
+                        <div class="service-details">
+                            <p><strong>Includes:</strong></p>
+                            <ul>
+                                <li>Booking systems</li>
+                                <li>Inventory or POS systems</li>
+                                <li>ERP-lite dashboards for internal use</li>
+                            </ul>
+                            <p><strong>Tools:</strong> Python, JS, Flutter, Firebase</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Ongoing Website & App Maintenance</h3>
+                        <p>End-to-end support to keep your digital assets safe, optimized, and evolving.</p>
+                        <button class="read-more">Read More</button>
+                        <div class="service-details">
+                            <p><strong>Includes:</strong></p>
+                            <ul>
+                                <li>Bug fixing, regular updates</li>
+                                <li>Performance tuning</li>
+                                <li>Backups, SEO improvements</li>
+                            </ul>
+                            <p><strong>Ideal for:</strong> Businesses, NGOs, content creators</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Digital Consulting & Tech Strategy</h3>
+                        <p>Let Banglanova guide your digital journey.</p>
+                        <button class="read-more">Read More</button>
+                        <div class="service-details">
+                            <p><strong>Includes:</strong></p>
+                            <ul>
+                                <li>Technology audits</li>
+                                <li>Roadmap creation for web/app transformation</li>
+                                <li>IT advisory for NGOs or SMEs</li>
+                                <li>Project management (Agile/Scrum) consulting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Micro Services -->
+                <div id="micro" class="tab-content">
+                    <div class="service-card micro">
+                        <div class="service-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <h3>Bug Fixing</h3>
+                        <p>Fix HTML, CSS, JS, Flutter, or Python bugs quickly.</p>
+                        <span class="badge">Fast Delivery</span>
+                    </div>
+                    
+                    <div class="service-card micro">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile"></i>
+                        </div>
+                        <h3>Mobile Responsiveness Fix</h3>
+                        <p>Make any site mobile & tablet friendly.</p>
+                        <span class="badge">Popular</span>
+                    </div>
+                    
+                    <div class="service-card micro">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI Conversion (Figma/PSD → HTML)</h3>
+                        <p>Pixel-perfect frontend delivery.</p>
+                        <span class="badge">Starter Package</span>
+                    </div>
+                    
+                    <div class="service-card micro">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>API Integration (Flask/Flutter)</h3>
+                        <p>Connect backend APIs to frontend/apps.</p>
+                        <span class="badge">Fast Delivery</span>
+                    </div>
+                    
+                    <div class="service-card micro">
+                        <div class="service-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Form to Email + DB Scripts</h3>
+                        <p>Smart forms with validation + storage.</p>
+                    </div>
+                    
+                    <div class="service-card micro">
+                        <div class="service-icon">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h3>CSV/Excel Report Generation</h3>
+                        <p>Automate report building from data.</p>
+                    </div>
+                    
+                    <div class="service-card micro">
+                        <div class="service-icon">
+                            <i class="fas fa-spider"></i>
+                        </div>
+                        <h3>Web Scraping</h3>
+                        <p>Extract structured data from public websites.</p>
+                        <span class="badge">Popular</span>
+                    </div>
+                    
+                    <div class="service-card micro">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Deploy to GitHub/Vercel/Netlify</h3>
+                        <p>CI/CD setup & GitHub Pages deployment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <p class="section-subtitle">Flexible team structure means faster delivery and domain-specific experts.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Agile Delivery</h3>
+                    <p>Iterative development with continuous feedback loops for better results.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Trusted Freelancer Network</h3>
+                    <p>Access to vetted specialists for every technical need.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Transparent Communication</h3>
+                    <p>Regular updates and clear timelines for peace of mind.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Data Security First</h3>
+                    <p>Enterprise-grade security practices for your peace of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <p class="section-subtitle">Handcrafted solutions that solve real problems.</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/600x400?text=EduTrack+Dashboard" alt="EduTrack Dashboard">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>EduTrack – Student Performance Dashboard</h3>
+                        <p class="tech-stack">HTML, CSS, JavaScript, Python (Flask), Chart.js, SQLite</p>
+                        <p>An internal dashboard for schools to track student grades, attendance, and performance trends.</p>
+                        <ul class="portfolio-features">
+                            <li>Real-time filters for teachers</li>
+                            <li>Secure role-based access</li>
+                            <li>Exportable PDF reports</li>
+                        </ul>
+                        <p class="portfolio-value"><strong>Value Delivered:</strong> Helped a mid-sized school digitize manual record-keeping and reduce report generation time by 90%.</p>
+                        <a href="#" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/600x400?text=MediQuick+App" alt="MediQuick App">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>MediQuick – Appointment Booking App (Flutter)</h3>
+                        <p class="tech-stack">Flutter, Dart, Firebase, Firestore</p>
+                        <p>A cross-platform mobile app for clinics to manage appointments, doctor availability, and patient queues.</p>
+                        <ul class="portfolio-features">
+                            <li>Push notifications for appointment reminders</li>
+                            <li>Role-based login (Admin, Doctor, Patient)</li>
+                            <li>Clean Material UI for healthcare UX</li>
+                        </ul>
+                        <p class="portfolio-value"><strong>Value Delivered:</strong> Improved operational efficiency and reduced no-show rates by 40% in pilot clinics.</p>
+                        <a href="#" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/600x400?text=MarketMate+Tracker" alt="MarketMate Tracker">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>MarketMate – Web Scraping & Price Tracker</h3>
+                        <p class="tech-stack">Python, BeautifulSoup, Flask, Bootstrap</p>
+                        <p>An automation tool that scrapes product prices from e-commerce sites and sends daily updates.</p>
+                        <ul class="portfolio-features">
+                            <li>Custom category tracking</li>
+                            <li>Email alerts with top price drops</li>
+                            <li>Lightweight Flask web UI</li>
+                        </ul>
+                        <p class="portfolio-value"><strong>Value Delivered:</strong> Enabled small businesses to monitor competitors and adjust pricing strategies instantly.</p>
+                        <a href="#" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/600x400?text=NGO+Pulse+Tool" alt="NGO Pulse Tool">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>NGO Pulse – Digital Impact Reporting Tool</h3>
+                        <p class="tech-stack">HTML, CSS, JS, Python (Flask), Google Sheets API</p>
+                        <p>A lightweight web tool for NGOs to submit monthly field data and auto-generate donor-friendly reports.</p>
+                        <ul class="portfolio-features">
+                            <li>Multi-user form submission</li>
+                            <li>Data validation and summarization</li>
+                            <li>Output in Excel + PDF</li>
+                        </ul>
+                        <p class="portfolio-value"><strong>Value Delivered:</strong> Reduced reporting errors and increased transparency for a grassroots development project.</p>
+                        <a href="#" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/600x400?text=SwiftCart+Template" alt="SwiftCart Template">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>SwiftCart – Responsive E-commerce Template</h3>
+                        <p class="tech-stack">HTML, CSS, JavaScript (Vanilla), Flexbox/Grid</p>
+                        <p>A fast-loading, mobile-optimized e-commerce front-end template built for small retailers.</p>
+                        <ul class="portfolio-features">
+                            <li>Product grid, filtering, and cart preview</li>
+                            <li>SEO-friendly markup</li>
+                            <li>Clean and modern UI</li>
+                        </ul>
+                        <p class="portfolio-value"><strong>Value Delivered:</strong> Designed to help first-time sellers launch their online store with minimal development effort.</p>
+                        <a href="#" class="portfolio-link">View Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Clients Say</h2>
+            <p class="section-subtitle">Trusted globally. Delivered locally.</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <p>"I hired Banglanova Digital to build a lightweight Python web tool for internal use. Delivered on time, clean code, great documentation. Will work with them again."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Anna Delacroix</h4>
+                        <p>Product Manager, LumiSoft Inc. (France)</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"They created a beautiful mobile UI with Flutter for our shopping app prototype. Great eye for UX and reliable in communication."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Jason Pritchard</h4>
+                        <p>CTO, PeakMall E-commerce (UK)</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The dashboard Banglanova built streamlined our reporting process significantly. I liked how they understood our NGO-specific needs."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Soraya Al-Hashimi</h4>
+                        <p>Operations Lead, AlBuraq NGOs (UAE)</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Amazing experience working on a JavaScript-heavy single page app. Responsive, proactive, and professional team."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Kenta Sugiyama</h4>
+                        <p>Startup Founder, Tokyo ByteWorks (Japan)</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"We needed a fast, secure Flask API for a client portal. Banglanova delivered a reliable solution and worked flexibly with our timezone."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Michael Rodriguez</h4>
+                        <p>Digital Strategy Consultant, Bluestone Ventures (USA)</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Banglanova's website maintenance package kept our systems smooth and secured. Highly recommended for ongoing tech support."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>J. K. Osei</h4>
+                        <p>Tech Advisor, Ghana E-Services Hub (Ghana)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-nav">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots"></div>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Let's Make Your Digital Presence Impactful</h2>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>rabbi@banglanova.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+8801323376571</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Online only</span>
+                </div>
+                
+                <div class="contact-buttons">
+                    <a href="mailto:rabbi@banglanova.com" class="btn primary">Request a Free Quote</a>
+                    <a href="https://wa.me/message/PDQTPWEL27UXP1" class="btn secondary">WhatsApp Us Now</a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form" action="https://formspree.io/f/xvgqgrdw" method="POST">
+                <input type="hidden" name="_subject" value="New Contact Form Submission - Banglanova Digital">
+                <input type="hidden" name="_replyto" value="rabbi@banglanova.com">
+                <input type="hidden" name="_language" value="en">
+                <input type="text" name="_gotcha" style="display:none">
+                
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+                
+                <!-- Success/Error Messages (will be shown after submission) -->
+                <div class="form-messages" style="display: none; margin-top: 20px; padding: 10px; border-radius: 4px;"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="bndt.png" alt="Banglanova Digital Logo">
+                        <div class="logo-text">
+                            <span class="bangla" style="color: #1e3a8a;">BanglaNova</span>
+                            <span class="digital" style="color: #0097b2;">Digital</span>
+                        </div>
+                    </div>
+                    <p>Smart web, mobile, and automation solutions delivered through our trusted network of developers.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i> +8801323376571</li>
+                        <li><i class="fas fa-envelope"></i> rabbi@banglanova.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Banglanova Digital. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
